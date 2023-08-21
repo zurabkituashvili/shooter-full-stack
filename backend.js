@@ -42,7 +42,6 @@ io.on('connection', (socket) => {
       velocity,
       playerId: socket.id
     }
-    // console.log(backEndProjectiles)
   })
 
   socket.on('initGame', ({ username, width, height, devicePixelRatio }) => {

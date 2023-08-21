@@ -176,7 +176,6 @@ setInterval(() => {
     frontEndPlayers[socket.id].x += SPEED
     socket.emit('keydown', { keycode: 'KeyD', sequenceNumber })
   }
-  // console.log(playerInputs)
 }, 15)
 
 window.addEventListener('keydown', (event) => {
